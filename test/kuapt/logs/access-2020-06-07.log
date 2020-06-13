@@ -1,4 +1,0 @@
-::1 - - [07/Jun/2020:08:36:02 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
-::1 - - [07/Jun/2020:08:36:02 +0000] "GET / HTTP/1.1" 404 139
-::1 - - [07/Jun/2020:08:36:08 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
-::1 - - [07/Jun/2020:08:36:08 +0000] "GET / HTTP/1.1" 404 139
