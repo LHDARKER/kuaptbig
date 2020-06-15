@@ -20,6 +20,12 @@ router.post('/user/login', (req, res) => {
 		res.send(result)
 	})
 })
+router.get('/teaac/all', (req, res) => {
+    teaAction.alltea().then(result => {
+        res.send({code: '1', data: result})
+    })
+})
+
 
 // 对于没有的匹配的页面进行处理，相对于404
 router.use((req, res) => {

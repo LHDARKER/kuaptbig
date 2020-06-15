@@ -10,6 +10,14 @@ export default [
 	},
 	{
 		path: '/pages/mine/register', name: 'mine/register', 　
+	},
+	{
+		path: '/pages/tea/tea', name: 'tea/tea',
+		H5Params: {}
+	},
+	{
+		path: '/pages/class/class', name: 'class/class',
+		H5Params: {}
 	}
 ]
 

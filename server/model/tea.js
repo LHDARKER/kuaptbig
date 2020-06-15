@@ -4,8 +4,8 @@
 const Sequelize = require('sequelize')
 const config = require('../config')
 
-// 定义用户模型
-const UsersModel = config.define('lh_teas', {
+// 定义教师模型
+const teasModel = config.define('lh_teas', {
     teaid: {
         type: Sequelize.INTEGER,
         primaryKey: true,            // 主键
@@ -20,4 +20,4 @@ const UsersModel = config.define('lh_teas', {
     underscored:false   // 驼峰转下划线
 })
 
-module.exports = teaModel
+module.exports = teasModel
